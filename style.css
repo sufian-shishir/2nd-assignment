@@ -1,6 +1,10 @@
-.lady-pic img{
-    width: 450px;
+header img{
+    width: 250px;
 }
-.container .card-group img{
-    width: ;
+
+.first-section .lady-pic img{
+    width: 550px;
+}
+.woman-jacket .card img{
+    size: 65%;
 }
