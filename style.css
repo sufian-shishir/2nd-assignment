@@ -5,6 +5,11 @@ header img{
 .first-section .lady-pic img{
     width: 550px;
 }
-.woman-jacket .card img{
-    size: 65%;
+.all-jacket img{
+    height: 70%;
+}
+.last-card {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 20px;
 }
