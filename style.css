@@ -1,5 +1,5 @@
 header img{
-    width: 250px;
+    width: 300px;
 }
 
 .first-section .lady-pic img{
@@ -12,4 +12,20 @@ header img{
     width: 600px;
     border-radius: 20px;
     margin-top: 20px;
+}
+.woman-jacket{
+    margin-top: 20px;
+}
+.card-img-top{
+    background-color: lightgray;
+    padding: 50px;
+    border-radius: 30px;
+    
+    
+}
+.btn{
+    background-color:rgb(112, 180, 10);
+}
+header, .first-section{
+    background-color: #fcf4f4;
 }
