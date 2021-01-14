@@ -9,7 +9,6 @@ header img{
     height: 60%;
 }
 .last-card {
-    width: 600px;
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -28,4 +27,10 @@ header img{
 }
 header, .first-section{
     background-color: #fcf4f4;
+    border-radius: 15px;
+}
+@media (max-width: 668px) {
+    .media{
+        text-align: center;
+    }
 }
