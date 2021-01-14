@@ -6,6 +6,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
     <header class="container">
@@ -15,19 +16,19 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse btn-sm d-flex justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse btn-sm" id="navbarNav">
+            <ul class="ms-auto navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#jacket">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about-us">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact-us">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -51,7 +52,7 @@
           </section>
     </header>
     <main class="container">
-          <section class="all-jacket mt-5">
+          <section id="jacket" class="all-jacket mt-5">
             <h1 class="media">WOMAN JACKET</h1>
               <div class="woman-jacket row row-cols-1 row-cols-md-3 g-4">
                 <div class="col border-0">
@@ -109,7 +110,7 @@
           </section>
           <section class="all-jacket mt-5">
             <h1 class="media">MAN JACKET</h1>
-            <div class="man-jacket row row-cols-1 row-cols-md-3 g-4">
+            <div class="man-jacket row row-cols-1 row-cols-md-3 g-4 mt-2">
               <div class="col border-0">
                 <div class="card border-0 shadow-lg p-3 mb-2 bg-white rounded" style="height:700px; border-radius: 15px !important;">
                   <img src="Image/image 11.png" class="card-img-top" alt="...">
@@ -165,7 +166,7 @@
           </section>
           <br>
           <br>
-        <section class="mb-5 last-section row">
+        <section id="about-us" class="mb-5 last-section row">
           <section class="col-12 col-sm-12 col-md-12 col-lg-6">
             <div class="last-card shadow border-0 p-2">
                 <div class="indivitual-card d-flex align-items-center row g-0">
@@ -209,11 +210,11 @@
             </section>
             <section class="col-12 col-sm-12 col-md-12 col-lg-6">
               <div>
-                  <img class="img-fluid" src="Image/XMLID 1.png" alt="">
+                  <img class="img-fluid mt-5" src="Image/XMLID 1.png" alt="">
               </div>
             </section>
         </section>          
-        <section style="height: 350px; border-radius: 20px !important;" class="bg-primary mt-5 mb-5 d-flex justify-content-center align-items-center shadow-lg rounded">
+        <section id="contact-us" style="height: 350px; border-radius: 20px !important;" class="bg-secondary mt-5 mb-5 d-flex justify-content-center align-items-center shadow-lg rounded">
           <div>
            <h1>LET'S STAY IN TOUCH</h1>
            <h6>Get updates on sales, specials and more</h6>
